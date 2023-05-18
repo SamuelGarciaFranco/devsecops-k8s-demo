@@ -9,8 +9,8 @@ pipeline {
             }
         }   
       stage('Unit Test') {
-            steps {
-              sh "mvn test"
+            steps { 
+              sh "mvn test" /*Comment22*/
        
             }
         }   
